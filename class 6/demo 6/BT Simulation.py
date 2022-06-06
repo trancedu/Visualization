@@ -315,6 +315,7 @@ def reset_l(n):
 #%% Run
 app.config.suppress_callback_exceptions = True
 app.run_server(
+    port = 8063,
     debug = True
 )
 
